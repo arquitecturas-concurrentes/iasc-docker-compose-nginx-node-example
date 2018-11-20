@@ -22,6 +22,8 @@ and getting the status by
 docker ps
 ```
 
+![alt text](https://raw.githubusercontent.com/arquitecturas-concurrentes/iasc-docker-compose-nginx-node-example/master/Screenshot_2018-11-20_17-43-40.png?token=AA_0D5M_wXfGg0ZwzVf1NflEdGzbgrLsks5b_a69wA%3D%3D)
+
 
 also you can see the logs by doing
 
