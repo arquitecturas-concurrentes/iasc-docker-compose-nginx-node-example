@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 FROM node:15-alpine3.10
+=======
+FROM node:12-alpine
+>>>>>>> e888c7dc6b5bb97367345842902eb69571c8f4ed
 
 # Create app directory
 WORKDIR /usr/src/app
