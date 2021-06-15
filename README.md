@@ -57,17 +57,17 @@ if you want to set up more than one app then we need to change the nginx config
 
 ```
     upstream app_servers {
-        server iasc-docker_app_1:5000;
-        server iasc-docker_app_2:5000;
-        server iasc-docker_app_3:5000;
-        server iasc-docker_app_4:5000;
+        server iasc-docker-compose-nginx-node-example_app_1:5000;
+        server iasc-docker-compose-nginx-node-example_app_2:5000;
+        server iasc-docker-compose-nginx-node-example_app_3:5000;
+        server iasc-docker-compose-nginx-node-example_app_4:5000;
     }
 ```
 
 then scale it accordingly
 
 ```bash
-docker-compose scale app=4
+docker-compose up --scale app=4
 ```
 
 and then bringing the services up

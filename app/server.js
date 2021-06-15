@@ -6,10 +6,13 @@ const express = require('express');
 const PORT = 5000;
 const HOST = '0.0.0.0';
 
+let count = 0;
+
 // App
 const app = express();
 app.get('/', (req, res) => {
-  res.send('pong\n');
+  count++;
+  res.send(`${count}`);
 });
 
 app.listen(PORT, HOST);
