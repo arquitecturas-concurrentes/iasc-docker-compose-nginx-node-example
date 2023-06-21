@@ -1,4 +1,4 @@
-version: '2'
+version: '3.5'
 
 services:
   proxy:
@@ -10,7 +10,7 @@ services:
     depends_on:
       - app  
   redis:
-    image: 'redis:4.0'
+    image: 'redis:7.2-rc2-alpine'
     ports:
       - "6379"    
   app:
